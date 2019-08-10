@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>codejam-dom-pallete</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?9ukd8d">
+</head>
+<body class="flex">
+<div class="nav-pannel shadow">
+    <div class=nav>
+        <div class="nav-image-1"></div>
+        <h1 class="title">CodeJam - Pallete</h1>
+    </div>
+    <div class="nav-image-2"></div>
+</div>
+<section class="wrapper">
+    <div class="instruments">
+        <div class="instruments-area pallete shadow">
+            <button class=" button paint-backet" id="bucket">Paint backet (d)</button>
+            <button class=" button choose-color" id="color-choose">Choose color (s)</button>
+            <button class="button move instrument-move" id="move">Move</button>
+            <button class="button transform" id="transformation">Transform (a)</button>
+        </div>
+        <div class="color-area colors shadow">
+            <div class="color-area-button">
+                <div class="circle current" id="current"></div>
+                <button class="button-color">Current color</button></div>
+            <div class="color-area-button">
+                <div class="circle prev-color" id="prev-color"></div>
+                <button class="button-color">Prev color</button></div>
+            <div class="color-area-button instrument-move">
+                <div class="circle red "></div>
+                <button class="button-color">Red</button></div>
+            <div class="color-area-button">
+                <div class="circle blue"></div>
+                <button class="button-color">Blue</button></div>
+        </div>
+    </div>
+    <div class="canvas">
+        <div class="element element-1"></div>
+        <div class="element element-2"></div>
+        <div class="element element-3"></div>
+        <div class="element element-4"></div>
+        <div class="element element-5"></div>
+        <div class="element element-6"></div>
+        <div class="element element-7"></div>
+        <div class="element element-8"></div>
+        <div class="element element-9"></div>
+    </div>
+</section>
+<script src="index.js"></script>
+</body>
+</html>
